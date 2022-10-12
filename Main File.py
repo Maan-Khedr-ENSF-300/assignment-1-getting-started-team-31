@@ -17,22 +17,6 @@ def multiply(x,y):
 def divide(x,y):
     return x // y
 
-def intval(x):
-
-    while True:
-        try:
-            x = int(input ('Enter the first value:'))
-
-
-        except ValueError:
-            print(f'your entered value is not an integer \n try again!')
-            continue
-        else:
-            return (x)
-            break
-
-
-
 
 def main ():
     while True:
