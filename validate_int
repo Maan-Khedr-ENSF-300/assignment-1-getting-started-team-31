@@ -1,0 +1,6 @@
+def validate_int(number): 
+       val = input((‘Please enter the {} integer:  ‘).format(number)) 
+       while val.lstrip(“-“.isdigit() != True: 
+             print(“Error: incorrect integer input”)
+             val = input((‘Please enter {} integer: ‘).format(number))
+       return val 
