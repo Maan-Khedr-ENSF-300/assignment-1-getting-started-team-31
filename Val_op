@@ -1,0 +1,7 @@
+def validate_operator(op):
+       operators_in_prog = [‘+’,’-‘,’*’,’/’]
+       operator = input((‘Please enter the {} operator: ‘).format(op))
+             while operator not in operators_in_prog:
+             print(“Error: incorrect operator input”)
+            operator = input((‘Please enter the {} operator
+       return operator
