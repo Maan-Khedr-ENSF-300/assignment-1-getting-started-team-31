@@ -1,0 +1,41 @@
+if (op_1 == '/') and (op_2 == '/'):                         #if input is division
+    result = num_1 // num_2 // num_3
+
+elif (op_1 == '/') and (op_2 == '*'):                       #If input is division and multiplication
+    result = num_1 // num_2 * num_3
+
+elif (op_1 == '*') and (op_2 == '/'):                       #If input is multiplication and division
+    result = num_1 * num_2 // num_3
+
+elif (op_1 == '*') and (op_2 == '*'):                       #If input is multiplication
+    result = num_1 * num_2 * num_3
+
+elif (op_1 == '/') and (op_2 == '+'):                       #If input is division and addition
+    result = num_1 // num_2 + num_3
+
+elif (op_1 == '+') and (op_2 == '/'):                       #If input is addition and division
+    result = num_1 + num_2 // num_3
+
+elif (op_1 == '/') and (op_2 == '-'):                       #If input is division and subtraction
+    result = num_1 // num_2 - num_3
+
+elif (op_1 == '-') and (op_2 == '/'):                       #If input is subtraction and division
+    result = num_1 - num_2 // num_3
+
+elif (op_1 == '*') and (op_2 == '+'):                       #If input is multiplication and addition
+    result = num_1 * num_2 + num_3
+
+elif (op_1 == '+') and (op_2 == '*'):                       #If input is addition and division
+    result = num_1 + num_2 * num_3
+
+elif (op_1 == '*') and (op_2 == '-'):                       #If input is multiplication and subtraction
+    result = num_1 * num_2 - num_3
+
+elif (op_1 == '-') and (op_2 == '*'):                       #If input is subtraction and multiplication
+    result = num_1 - num_2 * num_3
+
+elif (op_1 == '+') and (op_2 == '+'):                       #If input is addition
+    result = num_1 + num_2 + num_3
+
+elif (op_1 == '-') and (op_2 == '-'):                       #If input is subtraction
+    result = num_1 - num_2 - num_3
