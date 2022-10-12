@@ -119,31 +119,6 @@ def main ():
 
         quit()
 
-def validate_int(number): 
-       val = input(('Please enter the {} integer:  ').format(number)) 
-       while val.lstrip("-").isdigit() != True: 
-            print("Error: incorrect integer input")
-            val = input(('Please enter {} integer: ').format(number))
-       return val
-
-
-def validate_operator(op):
-    operators_in_prog = ['+','-','*','/']
-    operator = input(('Please enter the {} operator: ').format(op))
-    while operator not in operators_in_prog:
-        print("Error: incorrect operator input")
-        operator = input(('Please enter the {} operator: ').format(op))
-
-    return operator
-
-int_list =[]
-op_list=[]
-int_list.append(validate_int("First"))
-op_list.append(validate_operator("First"))
-int_list.append(validate_int('Second'))
-op_list.append(validate_operator("Second"))
-int_list.append(validate_int("Third"))
-
 
 
 if __name__ =="__main__":
